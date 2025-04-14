@@ -1,3 +1,4 @@
+```bash
 # Cách cài đặt và khởi chạy project Nuxt 3
 
 ### 1. Clone project
