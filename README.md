@@ -1,4 +1,10 @@
 ```bash
+# Câu hỏi: Nếu API trả về chậm, bạn sẽ debug và tối ưu cách nào để cải thiện tốc độ load?
+
+- 
+
+-----------------------------------------------------------------------------------------
+
 # Cách cài đặt và khởi chạy project Nuxt 3
 
 ## 1. Clone project
@@ -13,9 +19,3 @@ npm run dev
 
 # Link web đã được deploy: 
 temp
-
------------------------------------------------------------------------------------------
-
-# Câu hỏi: Nếu API trả về chậm, bạn sẽ debug và tối ưu cách nào để cải thiện tốc độ load?
-
-- 
