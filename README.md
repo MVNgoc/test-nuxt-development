@@ -1,75 +1,25 @@
-# Nuxt Minimal Starter
+# Cách cài đặt và khởi chạy project Nuxt 3
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install dependencies:
-
+### 1. Clone project
 ```bash
-# npm
+git clone https://github.com/MVNgoc/test-nuxt-development.git
+cd test-nuxt-development
+
+### 2. Cài đặt dependencies
+```bash
 npm install
 
-# pnpm
-pnpm install
-
-# yarn
-yarn install
-
-# bun
-bun install
-```
-
-## Development Server
-
-Start the development server on `http://localhost:3000`:
-
+### 3. Chạy project ở chế độ phát triển
 ```bash
-# npm
 npm run dev
 
-# pnpm
-pnpm dev
+# Link web đã được deploy: 
+```bash
+temp
 
-# yarn
-yarn dev
+-----------------------------------------------------------------------------------------
 
-# bun
-bun run dev
-```
-
-## Production
-
-Build the application for production:
+# Câu hỏi: Nếu API trả về chậm, bạn sẽ debug và tối ưu cách nào để cải thiện tốc độ load?
 
 ```bash
-# npm
-npm run build
-
-# pnpm
-pnpm build
-
-# yarn
-yarn build
-
-# bun
-bun run build
-```
-
-Locally preview production build:
-
-```bash
-# npm
-npm run preview
-
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+- 
