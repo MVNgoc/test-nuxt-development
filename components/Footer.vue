@@ -29,36 +29,44 @@
         Kết nối với chúng tôi
       </h3>
       <div class="flex gap-[.61rem]">
-        <NuxtImg
-          src="/images/socials/facebook.png"
-          alt="Facebook"
-          class="w-[2rem]"
-        />
-        <NuxtImg
-          src="/images/socials/instagram.png"
-          alt="Instagram"
-          class="w-[2rem]"
-        />
-        <NuxtImg
-          src="/images/socials/youtube.png"
-          alt="Youtube"
-          class="w-[2rem]"
-        />
+        <a href="https://www.facebook.com/YenMarketVN" target="_blank">
+          <NuxtImg
+            src="/images/socials/facebook.png"
+            alt="Facebook"
+            class="w-[2rem]"
+          />
+        </a>
+        <a href="https://yenmarket.vn/" target="_blank">
+          <NuxtImg
+            src="/images/socials/instagram.png"
+            alt="Instagram"
+            class="w-[2rem]"
+          />
+        </a>
+        <a href="https://www.youtube.com/@yenmarket1761" target="_blank">
+          <NuxtImg
+            src="/images/socials/youtube.png"
+            alt="Youtube"
+            class="w-[2rem]"
+          />
+        </a>
       </div>
-      <NuxtImg
-        src="/images/logo_bct.png"
-        alt="Logo bct"
-        class="w-[6.79rem] lg:w-[9.56rem]"
-      />
+      <a href="http://online.gov.vn/Home/WebDetails/66187" target="_blank">
+        <NuxtImg
+          src="/images/logo_bct.png"
+          alt="Logo bct"
+          class="w-[6.79rem] lg:w-[9.56rem]"
+        />
+      </a>
     </div>
     <div>
-      <NuxtImg
-        src="/images/mew_store.png"
-        alt="Logo bct"
-        class="w-[13.59rem]"
-      />
-      <a href="https://yenmarket.vn/he-thong-cua-hang" class="mt-[.13rem]"
-        >Hệ thống cửa hàng</a
+      <a href="https://yenmarket.vn/he-thong-cua-hang" class="mt-[.13rem]">
+        <NuxtImg
+          src="/images/mew_store.png"
+          alt="Logo bct"
+          class="w-[13.59rem]"
+        />
+        <p>Hệ thống cửa hàng</p></a
       >
     </div>
   </footer>
