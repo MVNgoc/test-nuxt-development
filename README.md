@@ -1,4 +1,4 @@
-# Câu hỏi: Nếu API trả về chậm, bạn sẽ debug và tối ưu cách nào để cải thiện tốc độ load?
+## Câu hỏi: Nếu API trả về chậm, bạn sẽ debug và tối ưu cách nào để cải thiện tốc độ load?
 
 - Đầu tiên cần kiểm tra thời gian phản hồi API bằng DevTools trên trình duyệt để xem API nào đang chậm, kiểm tra xem có phải vấn đề nằm ở phía BE hay không, sau đó mới tiến hành tối ưu phía FrontEnd.
 - Một số cách xử lý như:
@@ -12,23 +12,19 @@
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Cách cài đặt và khởi chạy project Nuxt 3
+## Cách cài đặt và khởi chạy project Nuxt 3
 
-## 1. Clone project
-
+### 1. Clone project
 git clone https://github.com/MVNgoc/test-nuxt-development.git
 cd test-nuxt-development
 
-## 2. Cài đặt dependencies
-
+### 2. Cài đặt dependencies
 npm install
 
-## 3. Chạy project ở chế độ phát triển
-
+### 3. Chạy project ở chế độ phát triển
 npm run dev
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------
 
-# Link web đã được deploy:
-
+## Link web đã được deploy:
 [yenmarket](https://yenmarket.netlify.app/)
