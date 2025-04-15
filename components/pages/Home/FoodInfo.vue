@@ -12,12 +12,16 @@
         <IconsIconCart />
       </div>
     </div>
-    <h2 class="text-[.94rem] md:text-[1.13rem] font-bold line-clamp-2 leading-[1.35rem]">
+    <h2
+      class="text-[.94rem] md:text-[1.13rem] font-bold line-clamp-2 leading-[1.35rem]"
+    >
       {{ name }}
     </h2>
-    <p class="text-[#ca2628] font-bold text-[.88rem] md:text-[1.06rem]">
-      {{ price }} <span class="font-normal">/Kg</span>
-    </p>
+    <div class="flex flex-1 items-end">
+      <p class="text-[#ca2628] font-bold text-[.88rem] md:text-[1.06rem]">
+        {{ price }} <span class="font-normal">/Kg</span>
+      </p>
+    </div>
   </div>
 </template>
 
