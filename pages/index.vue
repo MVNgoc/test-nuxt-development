@@ -2,7 +2,7 @@
   <div>
     <div class="bg-[#ca2628] py-[.75rem]">
       <div class="custom-container flex items-center gap-[1.25rem]">
-        <IconsIconeMore class="w-[1.25rem] h-[1.25rem]" />
+        <IconsIconeMore class="w-[1.25rem] h-[1.25rem] cursor-pointer" />
         <h1 class="text-[.94rem] md:text-[1.13rem] font-bold text-white">
           DANH MỤC SẢN PHẨM
         </h1>

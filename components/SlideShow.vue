@@ -1,21 +1,23 @@
 <template>
-  <Swiper
-    :modules="[Navigation, Pagination, Autoplay]"
-    navigation
-    loop
-    :autoplay="{ delay: 3000, disableOnInteraction: false }"
-    :speed="1000"
-    :pagination="{ clickable: true }"
-    class="w-full h-[300px] lg:h-[500px]"
-  >
-    <SwiperSlide v-for="(slide, index) in slides" :key="index">
-      <NuxtImg
-        :src="slide.image"
-        :alt="slide.alt"
-        class="object-cover w-full h-full"
-      />
-    </SwiperSlide>
-  </Swiper>
+  <ClientOnly>
+    <Swiper
+      :modules="[Navigation, Pagination, Autoplay]"
+      navigation
+      loop
+      :autoplay="{ delay: 3000, disableOnInteraction: false }"
+      :speed="1000"
+      :pagination="{ clickable: true }"
+      class="w-full h-[300px] lg:h-[500px]"
+    >
+      <SwiperSlide v-for="(slide, index) in slides" :key="index">
+        <NuxtImg
+          :src="slide.image"
+          :alt="slide.alt"
+          class="object-cover w-full h-full"
+        />
+      </SwiperSlide>
+    </Swiper>
+  </ClientOnly>
 </template>
 
 <script setup>
