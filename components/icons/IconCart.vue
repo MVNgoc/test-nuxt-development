@@ -3,7 +3,7 @@
     width="25"
     height="25"
     viewBox="0 0 25 25"
-    fill="#C9262C"
+    :fill="type === 'primary' ? '#C9262C' : '#FFFFFF'"
     xmlns="http://www.w3.org/2000/svg"
   >
     <path
@@ -11,3 +11,9 @@
     />
   </svg>
 </template>
+
+<script setup lang="ts">
+defineProps<{
+  type?: "primary" | "secondary";
+}>();
+</script>

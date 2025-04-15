@@ -26,6 +26,47 @@ html {
 @media (max-width: 1400px) {
   .custom-container {
     width: 100%;
-    padding: 0 39px;
+    padding: 0 16px;
   }
+}
+
+.swiper-pagination {
+  .swiper-pagination-bullet {
+    background-color: #303030;
+  }
+
+  .swiper-pagination-bullet-active {
+    background-color: #fff;
+  }
+}
+
+.swiper-button-next,
+.swiper-button-prev {
+  background-color: rgba(0, 0, 0, 0.4);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 37px !important;
+  height: 37px !important;
+}
+
+.swiper-button-next:after,
+.swiper-button-prev:after {
+  content: "";
+  display: block;
+  font-size: 16px !important;
+  color: #fff;
+}
+
+.image-zoom {
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.image-zoom img {
+  transition: transform 0.3s ease;
+}
+
+.image-zoom:hover img {
+  transform: scale(1.1);
 }

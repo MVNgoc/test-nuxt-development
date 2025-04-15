@@ -2,11 +2,12 @@
   <header
     class="flex items-center justify-center min-h-[4.06rem] header-gradient lg:py-[.5rem]"
   >
-    <div class="custom-container flex items-center justify-between gap-[1.25rem]">
+    <div
+      class="custom-container flex items-center justify-between gap-[1.25rem]"
+    >
       <NuxtImg
         src="/images/logo-brand.png"
         alt="Logo brand"
-        loading="lazy"
         class="md:h-auto lg:h-[5rem]"
       />
       <div
@@ -15,7 +16,7 @@
         <input
           type="text"
           placeholder="Tìm kiếm"
-          class="h-[2.03rem] lg:h-[2.5rem] pl-[.61rem] flex flex-1 outline-none rounded-[6px] bg-[#f6f6f6] border border-[#ced4da]"
+          class="h-[2.03rem] lg:h-[2.5rem] pl-[.61rem] w-[6.25rem] md:w-full flex flex-1 outline-none rounded-[6px] bg-[#f6f6f6] border border-[#ced4da]"
           v-model="searchInput"
         />
         <IconsIconSearch
@@ -49,11 +50,13 @@
       <div
         class="p-[.2rem] rounded-[10px] border-[2px] border-[#C9262C] justify-center items-center cursor-pointer hidden lg:flex"
       >
-        <IconsIconCart class="lg:h-[2rem] lg:w-[2rem]" />
+        <IconsIconCart class="lg:h-[2rem] lg:w-[2rem]" type="primary" />
       </div>
       <div class="flex">
-        <IconsIconVi class="h-[1.42rem] lg:h-[1.75rem]" />
-        <IconsIconEn class="h-[1.42rem] lg:h-[1.75rem] -ml-[.63rem] lg:ml-0" />
+        <IconsIconVi class="h-[1.42rem] lg:h-[1.75rem] cursor-pointer" />
+        <IconsIconEn
+          class="h-[1.42rem] lg:h-[1.75rem] -ml-[.63rem] lg:ml-0 cursor-pointer"
+        />
       </div>
     </div>
   </header>

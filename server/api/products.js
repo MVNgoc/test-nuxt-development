@@ -72,7 +72,7 @@ export default defineEventHandler(async (event) => {
       {
         id: crypto.randomUUID(),
         name: "Đầu Thăn Ngoại Bò Hokubee Úc Đông Lạnh 300G",
-        image: "/images/frozen_meat/beef_tenderloin.jpg",
+        image: "/images/frozen_meat/beef_tenderloin.png",
         price: 349000,
       },
       {
