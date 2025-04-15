@@ -12,7 +12,7 @@
         <IconsIconCart />
       </div>
     </div>
-    <h2 class="text-[.94rem] md:text-[1.13rem] font-bold line-clamp-2">
+    <h2 class="text-[.94rem] md:text-[1.13rem] font-bold line-clamp-2 leading-[1.35rem]">
       {{ name }}
     </h2>
     <p class="text-[#ca2628] font-bold text-[.88rem] md:text-[1.06rem]">
