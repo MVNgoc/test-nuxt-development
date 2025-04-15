@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="py-[0.41rem]">
-      <SlideShow />
+      <PagesHomeSlideShow />
     </div>
     <div class="custom-container mt-[1.44rem]">
       <div class="flex items-center gap-[.81rem] overflow-auto">
@@ -34,14 +34,14 @@
         alt="Banner 3"
         class="w-full mt-[1.75rem] mb-[.81rem]"
       />
-      <div v-if="status === 'pending'"><Loading /></div>
+      <div v-if="status === 'pending'"><UiLoading /></div>
       <div v-else-if="error" class="text-center my-[1.25rem]">
         Có lỗi trong quá trình tải dữ liệu <br />
         {{ error.message }}
       </div>
       <div class="flex flex-col gap-[2.31rem]" v-else>
-        <ListFood title="FISH AND SEAFOOD" :list_food="data.fish_and_seafood" />
-        <ListFood title="FROZEN MEAT" :list_food="data.frozen_meat" />
+        <PagesHomeListFood title="FISH AND SEAFOOD" :list_food="data.fish_and_seafood" />
+        <PagesHomeListFood title="FROZEN MEAT" :list_food="data.frozen_meat" />
       </div>
     </div>
   </div>

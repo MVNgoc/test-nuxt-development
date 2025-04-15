@@ -1,9 +1,9 @@
 <template>
   <div class="flex flex-col min-h-screen">
-    <Header />
+    <LayoutHeader />
     <div class="flex-1">
       <NuxtPage />
     </div>
-    <Footer />
+    <LayoutFooter />
   </div>
 </template>
